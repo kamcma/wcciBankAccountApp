@@ -39,6 +39,7 @@ namespace bankAccountAppProject
         //constructors
         public Client()
         {
+            //if the Client object is not instantiated with a name, give it a generic name
             this.Name = "John Q. Public";
         }
         public Client(string name)
